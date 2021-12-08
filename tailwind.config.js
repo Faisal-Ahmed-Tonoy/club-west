@@ -1,10 +1,12 @@
+const colors=require('tailwindcss/colors')
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {},
   variants: {},
-  plugins: [],
+  plugins: [require('@tailwindcss/typography'),],
   purge: {
+    
     content: [
       `components/**/*.{vue,js}`,
       `layouts/**/*.vue`,
@@ -20,8 +22,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: defaultTheme.colors.green
+        primary: defaultTheme.colors.green,
+        treasuredTeal:"#65BBC8",
+       
       }
     }
   }
 }
+
+ 

@@ -7,10 +7,14 @@
    <img class="ml-32 my-8 h-32" src="~assets/image/logo.png" alt="">
       
  
- <button class="btn"> 
-    <button class="bg-treasuredTeal  justify-between text-white font-bold "><h1>Register</h1>
+ <div class=" mr-44 mt-20 mb-16 "> 
+    <button class=" bg-treasuredTeal  w-56 h-16 ">
+      <h1 class="text-white  font-bold text-3xl">Register</h1>
     </button>
-  </button>
+  </div>
+  
+
+  
     </div>
      
   </div>  

@@ -2,10 +2,12 @@
   <template>
  
      <div>
-        <Header />
- 
- <Nuxt />
+      <Header />
+      <Nuxt />
+      <Footer/>
+  
      </div>
+    
   
 </template>
   

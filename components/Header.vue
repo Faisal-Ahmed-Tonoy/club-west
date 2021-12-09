@@ -9,7 +9,7 @@
  
  <div class=" mr-44 mt-20 mb-16 "> 
     <button class=" bg-treasuredTeal  w-56 h-16 ">
-      <h1 class="text-white  font-bold text-3xl">Register</h1>
+      <h1 class="text-white  font-bold ">Register</h1>
     </button>
   </div>
   

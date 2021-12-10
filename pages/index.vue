@@ -1,6 +1,10 @@
 <template>
 
- <Main/>
+<div>
+<Main/>
+<List/>
+</div>
+
 </template>
 
 <script>

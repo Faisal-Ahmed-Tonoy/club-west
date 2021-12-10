@@ -19,7 +19,7 @@
  <div class="flex justify-evenly text-white ml-32 mt-24 mb-8">
      <img src="~assets/image/houselogo.png" class="h-9" alt="">
       <img src="~assets/image/chairlogo.png" class="h-9" alt="">
-      <p class="font-medium" >site by:Site by: paceadv.com</p>
+      <p class="font-medium" >Site by: paceadv.com</p>
  </div>
 
  

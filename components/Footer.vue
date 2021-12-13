@@ -1,4 +1,4 @@
-<template>
+ <template>
   <footer>
     <div
       class="grid grid-cols-3 gap-4 bg-cover bg-no-repeat bg-center"

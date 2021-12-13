@@ -1,12 +1,18 @@
 <template>
-  <div class="grid grid-cols-3 gap mb-28">
-    <div>
+  <!-- <div class="grid grid-cols-3 gap mb-28">
+   
+
+    <div class="col-span-2">
+     
+    </div>
+  </div> -->
+  
+<div class="grid grid-cols-12 gap-4 ">
+
+  <div class="col-span-10 flex justify-center items-center">
+     
       <div>
-        <p class="ml-30 mb-8 mt-20 text-indigoDye font-bold text-5xl text-center">
-          ULTRA-LUXURY <br />
-          RENTALS FOR 55+
-        </p>
-      </div>
+      
 
       <div class="flex items-center justify-center">
         <img src="~assets/image/Line15.png" alt="" />
@@ -15,7 +21,7 @@
         <p class="ml-30 text-middleBlue font-bold text-5xl text-center">
           Opening Spring 2022
         </p>
-      </div> 
+      </div>
       <div class="mt-8">
         <p class="ml-30 text-center text-indigoDye text-2xl">
           An encore to The Club at Pearl River, <br />
@@ -30,9 +36,15 @@
         </div>
       </div>
     </div>
-
-    <div class="col-span-2">
-      <img class="w-full h-fit" src="~assets/image/kitchen.png" alt="" />
-    </div>
   </div>
+  <div class="col-span-2 flex justify-center items-center">
+     
+      <img class="" src="~assets/image/submit.png" alt="" />
+  </div>
+  </div>
+     
+ 
+  
+
+ 
 </template>

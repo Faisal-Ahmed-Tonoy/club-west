@@ -7,8 +7,7 @@
     
       <div>
         <p
-          class="ml-24 mb-8 mt-20 text-indigoDye font-bold text-5xl text-left"
-        >
+          class="ml-24 mb-8 mt-20 text-indigoDye font-bold text-5xl text-left">
          IT’S YOUR TIME <br>
 TO EMBRACE <br>
 THE GOOD LIFE

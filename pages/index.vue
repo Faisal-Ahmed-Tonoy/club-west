@@ -3,6 +3,8 @@
 <div>
 <Main/>
 <List/>
+<Submit/>
+
 </div>
 
 </template>

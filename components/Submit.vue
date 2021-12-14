@@ -6,35 +6,63 @@
       </div>
       <div>
         <p class="text-indigoDye text-2xl -mt-8">
-          Register below to be among the first to learn about 
+          Register below to be among the first to learn about
           <br />
           leasing opportunities once we open.
         </p>
-      </div> 
-      
-        <form class="mt-8">
-          <div>
-           
-            	<input class=" font-bold text-middleBlue text-3xl  w-full placeholder-middleBlue value-middleBlue border-b border-middleBlue  focus:outline-none " type="" placeholder="*   First Name" >
-          </div>
-          <div>
-           
-            	<input class=" font-bold text-middleBlue text-3xl  w-full placeholder-middleBlue value-middleBlue border-b border-middleBlue  focus:outline-none " type="" placeholder="*   First Name" >
-          </div>
-          <div>
-           
-            	<input class=" font-bold text-middleBlue text-3xl  w-full placeholder-middleBlue value-middleBlue border-b border-middleBlue  focus:outline-none " type="" placeholder="*   First Name" >
-          </div>
-          <div>
-           
-            	<input class=" font-bold text-middleBlue text-3xl  w-full placeholder-middleBlue value-middleBlue border-b border-middleBlue  focus:outline-none " type="" placeholder="*   First Name" >
-          </div>
-        </form>
-      
+      </div>
+
+      <form class="mt-8">
+        <div>
+          <input
+            class="font-bold text-middleBlue text-3xl text-upper w-full placeholder-middleBlue value-middleBlue border-b border-middleBlue focus:outline-none focus:bg-white "
+            type=""
+            placeholder="*         First Name"
+          />
+        </div>
+        <div class="pt-8">
+          <input
+            class="font-bold text-indigoDye text-3xl w-full placeholder-indigoDye value-middleBlue border-b border-middleBlue focus:outline-none"
+            type=""
+            placeholder="*         Last Name"
+          />
+        </div>
+        <div class="pt-8">
+          <input
+            class="font-bold text-indigoDye text-3xl w-full placeholder-indigoDye value-middleBlue border-b border-middleBlue focus:outline-none"
+            type=""
+            placeholder="*         Email"
+          />
+        </div>
+        <div class="pt-8">
+          <input
+            class="font-bold text-indigoDye text-3xl w-full placeholder-indigoDye value-middleBlue border-b border-middleBlue focus:outline-none"
+            type=""
+            placeholder="*         Phone"
+          />
+        </div>
+         <div class="pt-8">
+          <input
+            class="font-bold text-indigoDye text-3xl w-full placeholder-indigoDye value-middleBlue border-b border-middleBlue focus:outline-none"
+            type=""
+            placeholder="     Comments"
+          />
+        </div>
+         <div class="pt-6">
+          <input
+            class=" text-indigoDye text-1xl w-full placeholder-indigoDye value-middleBlue  focus:outline-none"
+            type=""
+            placeholder="*                Required fields"
+          />
+        </div>
+         <button class="bg-treasuredTeal w-96 h-20 mt-12"> 
+            <h1 class="text-white font-bold">Submit</h1> 
+          </button>
+      </form>
     </div>
 
-    <div class="col-span-5 flex border-4 justify-center items-center">
-      <img class="" src="~assets/image/submit.png" alt="" />
+    <div class="col-span-5 flex  justify-center items-center">    
+      <img class="w-679 h-709" src="~assets/image/submit.png" alt="" />
     </div>
   </div>
 </template>

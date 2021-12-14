@@ -14,7 +14,7 @@
         <img src="~assets/image/Line15.png" alt="" />
       </div>
       <div class="mt-10">
-        <p class="ml-30 text-middleBlue font-bold text-5xl text-center">
+        <p class="ml-30 text-middleBlue font-bold text-5xl text-center"> 
           Opening Spring 2022
         </p>
       </div>

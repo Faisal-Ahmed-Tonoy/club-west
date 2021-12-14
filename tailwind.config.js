@@ -10,6 +10,11 @@ module.exports = {
                 indigoDye: "#213B5E",
                 middleBlue: "#65BBC8",
             },
+            spacing: {
+                '679': '42.4375rem',
+                '709': '44.3125rem',
+
+            },
         },
     },
     variants: {},

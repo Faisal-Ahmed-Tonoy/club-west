@@ -1,50 +1,24 @@
 <template>
-  <!-- <div class="grid grid-cols-3 gap mb-28">
-   
-
-    <div class="col-span-2">
-     
-    </div>
-  </div> -->
-  
-<div class="grid grid-cols-12 gap-4 ">
-
-  <div class="col-span-10 flex justify-center items-center">
-     
+  <div class="grid grid-cols-12 gap-4  ">
+    <div class="col-span-7   mt-24 ml-48 mb-28 text-left">
       <div>
-      
-
-      <div class="flex items-center justify-center">
-        <img src="~assets/image/Line15.png" alt="" />
-      </div>
-      <div class="mt-10">
-        <p class="ml-30 text-middleBlue font-bold text-5xl text-center">
-          Opening Spring 2022
+        <p
+          class="text-middleBlue  text-justify   font-bold text-5xl "
+        >
+          JOIN THE WAITLIST
         </p>
       </div>
-      <div class="mt-8">
-        <p class="ml-30 text-center text-indigoDye text-2xl">
-          An encore to The Club at Pearl River, <br />
-          The Club West will introduce a brand-new <br />
-          collection of one and two-bedroom rental <br />
-          residences surrounded by a wealth of <br />
-          lifestyle amenities in scenic <br />
-          Pearl River, New York.
+      <div>
+        <p class="text-indigoDye    text-2xl"> 
+          Register below to be among the first to learn about leasing
+          opportunities once we open.
         </p>
-        <div class="flex items-center justify-center">
-          <img class="mt-5" src="~assets/image/Polygon3.png" alt="" />
-        </div>
       </div>
     </div>
-  </div>
-  <div class="col-span-2 flex justify-center items-center">
-     
-      <img class="" src="~assets/image/submit.png" alt="" />
-  </div>
-  </div>
-     
- 
-  
 
- 
+    <div class="col-span-5 flex border-4 justify-center items-center">
+      
+      <img class="" src="~assets/image/submit.png" alt="" /> 
+    </div>
+  </div>
 </template>

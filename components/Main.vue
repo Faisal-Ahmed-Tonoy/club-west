@@ -2,7 +2,9 @@
   <div class="grid grid-cols-3 gap mb-28">
     <div>
       <div>
-        <p class="ml-30 mb-8 mt-20 text-indigoDye font-bold text-5xl text-center">
+        <p
+          class="ml-30 mb-8 mt-20 text-indigoDye font-bold text-5xl text-center"
+        >
           ULTRA-LUXURY <br />
           RENTALS FOR 55+
         </p>
@@ -15,7 +17,7 @@
         <p class="ml-30 text-middleBlue font-bold text-5xl text-center">
           Opening Spring 2022
         </p>
-      </div> 
+      </div>
       <div class="mt-8">
         <p class="ml-30 text-center text-indigoDye text-2xl">
           An encore to The Club at Pearl River, <br />

@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-12 gap-4">
+  <div class="grid grid-cols-12 gap-4 h-1015">
     <div class="col-span-7 mt-24 ml-48 mb-28 text-left">
       <div class="h-28">
         <p class="text-middleBlue font-bold text-5xl">JOIN THE WAITLIST</p>
@@ -15,7 +15,7 @@
       <form class="mt-8">
         <div>
           <input
-            class="font-bold text-middleBlue text-3xl text-upper w-full placeholder-middleBlue value-middleBlue border-b border-middleBlue focus:outline-none focus:bg-white "
+            class="font-bold text-middleBlue text-3xl text-upper w-full placeholder-middleBlue value-middleBlue border-b border-middleBlue focus:outline-none focus:bg-white"
             type=""
             placeholder="*         First Name"
           />
@@ -41,27 +41,27 @@
             placeholder="*         Phone"
           />
         </div>
-         <div class="pt-8">
+        <div class="pt-8">
           <input
             class="font-bold text-indigoDye text-3xl w-full placeholder-indigoDye value-middleBlue border-b border-middleBlue focus:outline-none"
             type=""
             placeholder="     Comments"
           />
         </div>
-         <div class="pt-6">
+        <div class="pt-6">
           <input
-            class=" text-indigoDye text-1xl w-full placeholder-indigoDye value-middleBlue  focus:outline-none"
+            class="text-indigoDye text-1xl w-full placeholder-indigoDye value-middleBlue focus:outline-none"
             type=""
             placeholder="*                Required fields"
           />
         </div>
-         <button class="bg-treasuredTeal w-96 h-20 mt-12"> 
-            <h1 class="text-white font-bold">Submit</h1> 
-          </button>
+        <button class="bg-treasuredTeal w-96 h-20 mt-12">
+          <h1 class="text-white font-bold">Submit</h1>
+        </button>
       </form>
     </div>
 
-    <div class="col-span-5 flex  justify-center items-center">    
+    <div class="col-span-5 flex justify-center items-center">
       <img class="w-679 h-709" src="~assets/image/submit.png" alt="" />
     </div>
   </div>

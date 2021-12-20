@@ -4,6 +4,15 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
+            container: {
+                center: true,
+            },
+            screens: {
+                'xm': '320px',
+                // => @media (min-width: 320px) { ... }
+
+
+            },
             colors: {
                 // primary: defaultTheme.colors.green,
                 treasuredTeal: "#65BBC8",
@@ -14,7 +23,8 @@ module.exports = {
                 '679': '42.4375rem',
                 '709': '44.3125rem',
                 '1015': '63.4375rem',
-                '889': '55.56rem'
+                '889': '55.56rem',
+                '1920': "120rem",
 
             },
         },

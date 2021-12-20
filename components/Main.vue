@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-3 gap mb-28">
+  <!-- <div class="grid grid-cols-3 gap mb-28">
     <div>
       <div>
         <p
@@ -36,5 +36,5 @@
     <div class="col-span-2">
       <img class="w-full h-fit" src="~assets/image/kitchen.png" alt="" />
     </div>
-  </div>
+  </div> -->
 </template>

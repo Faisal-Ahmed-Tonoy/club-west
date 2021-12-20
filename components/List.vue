@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-3 gap mt-5">
+  <!-- <div class="grid grid-cols-3 gap mt-5">
       <div class="col-span-2">
       <img class="w-full h-fit" src="~assets/image/Group67.png" alt="" />
     </div>
@@ -47,5 +47,5 @@ THE GOOD LIFE
     </div>
 
     
-  </div>
+  </div> -->
 </template>

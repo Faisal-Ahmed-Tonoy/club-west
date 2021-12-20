@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-12 gap-4 h-1015">
+  <!-- <div class="grid grid-cols-12 gap-4 h-1015">
     <div class="col-span-7 mt-24 ml-48 mb-28 text-left">
       <div class="h-28">
         <p class="text-middleBlue font-bold text-5xl">JOIN THE WAITLIST</p>
@@ -64,5 +64,5 @@
     <div class="col-span-5 flex justify-center items-center">
       <img class="w-679 h-709" src="~assets/image/submit.png" alt="" />
     </div>
-  </div>
+  </div> -->
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <!-- <footer>
     <div
       class="grid grid-cols-3 gap-4 bg-cover bg-no-repeat bg-center"
       style="height: 191.68px; background-image: url('/image/banner.png')"
@@ -25,5 +25,5 @@
         <p class="font-medium">Site by: paceadv.com</p>
       </div>
     </div>
-  </footer>
+  </footer> -->
 </template>

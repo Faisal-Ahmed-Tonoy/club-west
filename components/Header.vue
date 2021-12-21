@@ -1,5 +1,5 @@
 <template>
- <div class="xl:pl-36 xl:pr-48 md:px-3" style=" background-image: url('/image/banner.png')  ">
+ <div class="xl:pl-36 xl:pr-48 md:px-3" style="background-image: url('/image/banner.png')">
    <div class="container  ">
       <div class="row ">
          <div class="md:grid grid-cols-1   ">

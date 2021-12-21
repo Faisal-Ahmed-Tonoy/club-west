@@ -26,22 +26,36 @@
       </div>
     </div>
   </footer> -->
-  <div class="xl:pl-36 xl:pr-48 md:px-3" style=" background-image: url('/image/banner.png')  ">
-   <div class="container  ">
-      <div class="row ">
-         <div class="md:grid grid-cols-1   ">
-            <div class="md:flex justify-between ">
-               <div class="md:h-28 md:w-96 md:py-10 xm:py-10 "> 
-                  <img class="    " src="~assets/image/logo.png" alt="" />  
-               </div>
-               <div class="md:mt-20  md:mb-16">
-                  <button class="bg-treasuredTeal md:w-56 w-full h-16 ">
-                     <h1 class="text-white font-bold">Register</h1>
-                  </button>
-               </div>
-            </div>
-         </div>
-      </div>
+   <div  style="background-image: url('/image/banner.png')">
+      <div class="grid grid-cols-1">
+    
+   
+       
+     
+   
+   <div class="flex  items-center justify-center mt-5">
+     <img
+          class=" "
+          src="~assets/image/footerText.png"
+          alt=""
+        />
+         
+   </div>
+   <div class="text-white  flex flex-col items-center justify-center mt-5">
+     <p class="font-bold">845-735-3155</p>
+     <p class=" xm:mx-4 sm:mx-0">1000 Murray Court (Located off West Blue Hill Road) | Pearl River, NY
+          10965</p>
+   </div>
+     
+     
+   </div>
+    <div class="flex flex-row items-center justify-center mt-5 pb-5">
+      
+        <img src="~assets/image/houselogo.png" class="h-9 px-9" alt="" />
+        <img src="~assets/image/chairlogo.png" class="h-9 px-9" alt="" />
+           <p class=" text-sm text-white ">Site by: paceadv.com</p>
+         
    </div>
 </div>
+   </div>
 </template>

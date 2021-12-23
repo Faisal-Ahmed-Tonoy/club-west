@@ -9,7 +9,7 @@
           RENTALS FOR 55+
         </p>
           <img class="my-2" src="~assets/image/Line15.png" alt="" />
-           <p class="ml-30 text-middleBlue font-bold text-5xl text-center"> 
+           <p class=" text-middleBlue font-bold text-5xl text-center"> 
           Opening Spring 2022
         </p>
         <p class="my-2 text-center text-indigoDye text-2xl">

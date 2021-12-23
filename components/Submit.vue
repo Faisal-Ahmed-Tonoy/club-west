@@ -65,4 +65,13 @@
       <img class="w-679 h-709" src="~assets/image/submit.png" alt="" />
     </div>
   </div> -->
+
+  <div class="grid grid-cols-1 lg:grid-cols-12 my-5">
+    <div class="lg:col-span-7">
+      
+    </div>
+    <div class=lg:col-span-5>
+    
+    </div>
+  </div>
 </template>

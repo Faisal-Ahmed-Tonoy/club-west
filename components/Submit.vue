@@ -68,10 +68,12 @@
 
   <div class="grid grid-cols-1 lg:grid-cols-12 my-5">
     <div class="lg:col-span-7">
-      
+      <div class="flex flex-col items-center justify-center lg:justify-start lg:pl-52">  
+         
+          <p class=" font-bold text-middleBlue md:text-5xl xm:text-2xl  ">JOIN THE WAITLIST</p>
+          
+      </div>
     </div>
-    <div class=lg:col-span-5>
-    
-    </div>
+    <div class="lg:col-span-5"></div>
   </div>
 </template>

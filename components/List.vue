@@ -8,7 +8,7 @@
         class="flex flex-col items-center justify-center lg:items-start lg:justify-start"
       >
         <p
-          class="text-indigoDye font-bold sm:text-5xl xm:text-4xl mb-8 lg:mt-20"
+          class="text-indigoDye font-bold sm:text-5xl xm:text-5xl mb-8 lg:mt-20 xm:ml-10"
         >
           IT’S YOUR TIME
           <br />

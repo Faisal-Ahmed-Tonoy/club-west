@@ -1,6 +1,6 @@
 <template>
  
-<div style="background-image: url('/image/banner.png');">
+<div class="mt-28" style="background-image: url('/image/banner.png');">
     <div class="grid grid-cols-1 md:grid-cols-3">
       <div class="flex items-center justify-center mt-5 lg:mb-14 lg:mt-28"> 
         <img class=" " src="~assets/image/footerText.png" alt="" />

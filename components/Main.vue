@@ -1,6 +1,6 @@
 <template>
-  <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-2">
-    <div class="flex flex-col items-center justify-center">
+  <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-2 ">
+    <div class="flex flex-col items-center justify-center ">
       <p class="text-indigoDye font-bold text-5xl text-center my-2">
         ULTRA-LUXURY
         <br />

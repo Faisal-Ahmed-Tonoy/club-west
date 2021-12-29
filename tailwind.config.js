@@ -8,7 +8,7 @@ module.exports = {
                 center: true,
             },
             screens: {
-                'xm': '320px',
+                'xm': '319px',
                 // => @media (min-width: 320px) { ... }
 
 
@@ -25,6 +25,7 @@ module.exports = {
                 '1015': '63.4375rem',
                 '889': '55.56rem',
                 '1920': "120rem",
+                '512': "32rem",
 
             },
         },

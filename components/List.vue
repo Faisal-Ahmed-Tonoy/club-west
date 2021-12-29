@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-10 my-5">
+  <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-10 mt-28">
     <div class="lg:col-span-2">
       <img class="lg:w-full lg:h-full" src="~assets/image/Group67.png" alt="" />
     </div>

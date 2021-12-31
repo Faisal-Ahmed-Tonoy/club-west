@@ -56,5 +56,6 @@
  <style>
     .star::before { 
       content:"*";
+
 }
 </style>

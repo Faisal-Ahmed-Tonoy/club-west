@@ -41,14 +41,14 @@
     <p class="text-indigoDye  inline pl-5"> Required Field </p>
     
 </div>
-<div class="xm:w-full   xm:my-8">
-     <button class="bg-treasuredTeal py-2 lg:w-2/4 w-full   h-16"> 
+<div class="xm:w-full   xm:my-8  ">
+     <button class="bg-treasuredTeal py-2 lg:w-2/4 w-full    h-16 ">  
                 <h1 class="text-white font-bold">Submit</h1>
               </button>
 </div>
     </form>
 
-     <div class="   lg:col-span-5  lg:mr-32  lg:my-auto ">
+     <div class="   lg:col-span-5  lg:mr-32 lg:my-auto ">
       <img class="w-full  xl:my-24 "  src="~assets/image/submit.png" alt="" /> 
     </div>
   </div>

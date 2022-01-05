@@ -5,7 +5,7 @@
       action=""
       class="lg:col-span-7    xm:px-6 lg:ml-20"
     >
-      <p class="text-middleBlue font-bold text-5xl xm:mb-8">
+      <p class="text-middleBlue font-bold  text-5xl xm:mb-8">
         JOIN THE WAITLIST
       </p>
       <p class="xm:my-8 text-indigoDye  text-2xl  xm:w-560 lg:w-512">

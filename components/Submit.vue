@@ -8,7 +8,7 @@
       <p class="text-middleBlue font-bold  text-5xl xm:mb-8">
         JOIN THE WAITLIST
       </p>
-      <p class="xm:mb-8 text-indigoDye text-justify text-2xl  xm:w-560 lg:w-512">
+      <p class="xm:mb-8 text-indigoDye  text-2xl  xm:w-560 lg:w-512">
      Register below to be among the first to learn about leasing opportunities once we open.
       </p>
        <div class="star font-bold text-middleBlue text-3xl py-2 xm:my-10    border-b border-middleBlue  ">

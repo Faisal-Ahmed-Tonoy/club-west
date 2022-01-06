@@ -1,7 +1,7 @@
 <template>
   
-    <div class="border-solid" style="background-image: url('/image/banner.png');"  >  
-   <div class="border-solid     lg:flex lg:justify-center  xl:pl-36 xl:pr-44  lg:pl-28 lg:pr-28  xm:py-6  px-6  ">   
+    <div class=" " style="background-image: url('/image/banner.png');"  >  
+   <div class="     lg:flex lg:justify-center  xl:pl-36 xl:pr-44  lg:pl-28 lg:pr-28  xm:py-6  px-6  ">   
 
      <div class="lg:flex-1 lg:justify-center    my-10    ">
        <img class="md:h-28  md:w-96  lg:m-0 mx-auto       " src="~assets/image/logo.png" alt=""> 

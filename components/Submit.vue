@@ -1,14 +1,14 @@
 <template>
   
-  <div class="grid lg:grid-cols-12 lg:gap-4 mt-28  ">
+  <div class="grid lg:grid-cols-12 lg:gap-4 xl:mt-28 mt-8 ">
     <form
       action=""
-      class="lg:col-span-7    xm:px-6 lg:ml-20"
+      class="lg:col-span-7    xm:px-6 xl:ml-20"
     >
       <p class="text-middleBlue font-bold  text-5xl xm:mb-8">
         JOIN THE WAITLIST
       </p>
-      <p class="xm:my-8 text-indigoDye  text-2xl  xm:w-560 lg:w-512">
+      <p class="xm:mb-8 text-indigoDye  text-2xl  xm:w-560 lg:w-512">
         Register below to be among the first to learn about leasing
         opportunities once we open.
       </p>

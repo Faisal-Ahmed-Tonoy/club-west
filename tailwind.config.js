@@ -28,6 +28,7 @@ module.exports = {
                 '512': "32rem",
                 '565': "35rem",
                 '480': "30rem",
+                '1920': "120rem"
 
             },
             fontSize: {

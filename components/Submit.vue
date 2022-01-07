@@ -1,6 +1,6 @@
 <template>
   
-  <div class="grid lg:grid-cols-12 lg:gap-4 xl:mt-28 mt-8 ">
+  <div class="grid lg:grid-cols-12 lg:gap-4 xl:mt-28 mt-8  lg:mb-24 ">
     <form
       action=""
       class="lg:col-span-7    xm:px-6 xl:ml-20"
@@ -47,7 +47,7 @@
 </div>
     </form>
 
-     <div class="   lg:col-span-5  lg:mr-32 lg:my-auto ">
+     <div class="   lg:col-span-5  lg:mr-32 lg:my-auto mb-8  ">
       <img class="w-full  xl:my-24 "  src="~assets/image/submit.png" alt="" /> 
     </div>
   </div>
@@ -58,3 +58,4 @@
 
 }
 </style>
+ 

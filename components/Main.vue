@@ -2,7 +2,7 @@
    
    <div class="grid lg:grid-cols-3 lg:gap-2  ">
      <div class="lg:col-span-1 lg:mt-24 px-8 my-8  "> 
-         <p class="lg:text-center text-justify text-indigoDye font-bold text-5xl lg:mb-12 mb-8  "> 
+         <p class="lg:text-center   text-indigoDye font-bold text-5xl lg:mb-12 mb-8  "> 
          {{headLine}}
        </p>
        

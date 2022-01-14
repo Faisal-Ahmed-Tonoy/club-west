@@ -1,6 +1,6 @@
 <template>
   <div class="grid lg:grid-cols-12 lg:gap-4 xl:mt-28 mt-8 lg:mb-24">
-    <form action="" class="lg:col-span-7 xm:px-6 xl:ml-20">
+    <form class="lg:col-span-7 xm:px-6 xl:ml-20">
       <p class="text-middleBlue font-bold text-5xl xm:mb-8">
         JOIN THE WAITLIST
       </p>
@@ -10,6 +10,7 @@
       </p>
       <div
         class="star font-bold text-middleBlue text-3xl py-2 xm:my-10 border-b border-middleBlue"
+         :class="{ error: validation.hasError('firstName') }"
       >
         <!-- <label class="md:ml-12 "> </label>  -->
         <input
@@ -19,12 +20,14 @@
           placeholder="First Name"
           required
         />
-        <div class="text-red-600 message">
+        
+      </div>
+      <div class="text-red-600 message">
           {{ validation.firstError('firstName') }}
         </div>
-      </div>
       <div
         class="star font-bold text-middleBlue text-3xl py-2 xm:my-10 placeholder-middleBlue border-b border-middleBlue"
+        :class="{ error: validation.hasError('lastName') }"
       >
         <!-- <label class="md:ml-12 "> </label>  -->
         <input
@@ -34,9 +37,9 @@
           placeholder="Last Name"
           required
         />
-        <div class="text-red-600 message">
-          {{ validation.firstError('lastName') }}
-        </div>
+      </div>
+      <div class="text-red-600  message">
+        {{ validation.firstError('lastName') }}
       </div>
       <div
         class="star font-bold text-middleBlue text-3xl py-2 xm:my-10 placeholder-middleBlue border-b border-middleBlue"
@@ -50,9 +53,9 @@
           placeholder="EMAIL"
           required
         />
-        <div class="text-red-600 message">
-          {{ validation.firstError('email') }}
-        </div>
+      </div>
+      <div class="text-red-600 message">
+        {{ validation.firstError('email') }}
       </div>
       <div
         class="star font-bold text-middleBlue text-3xl py-2 xm:my-10 border-b border-middleBlue"
@@ -65,10 +68,11 @@
           placeholder="Phone"
           required
         />
+      
+      </div>
         <div class="text-red-600 message">
           {{ validation.firstError('phone') }}
         </div>
-      </div>
       <div
         class="font-bold text-middleBlue text-3xl py-2 xm:my-10 border-b border-middleBlue"
       >
@@ -105,9 +109,7 @@
 import Vue from 'vue'
 import SimpleVueValidation from 'simple-vue-validator'
 const Validator = SimpleVueValidation.Validator
-
 Vue.use(SimpleVueValidation)
-
 export default {
   data: function () {
     return {
@@ -128,7 +130,6 @@ export default {
         .required()
         .regex('^[A-Za-z]*$', 'Must only contain alphabetic characters.')
     },
-
     email: function (value) {
       return Validator.value(value).required().email()
     },
@@ -145,7 +146,6 @@ export default {
       })
     },
   },
-
   reset: function () {
     this.firstName = ''
     this.lastName = ''

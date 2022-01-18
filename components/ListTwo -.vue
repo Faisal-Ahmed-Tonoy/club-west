@@ -13,7 +13,7 @@
       </ul>
       <ul></ul>
 
-      <a href="#submit">
+      <a href="#thankyou">
         <div class="flex justify-center lg:visible invisible xm:h-0 lg:my-12">
           <img class="lg:h-9" src="~assets/image/Polygon3.png" alt="" />
         </div>
@@ -39,6 +39,7 @@ export default {
         'Modern 1- & 2-bedroom residences',
         'Den & private outdoor space available',
         'Clubhouse with bar & resident lounge',
+        'Fitness center & yoga studio',
         'Fitness center & yoga studio',
         'Library & coffee bar',
         'Poker & card rooms',

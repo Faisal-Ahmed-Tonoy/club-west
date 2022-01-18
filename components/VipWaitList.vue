@@ -23,7 +23,7 @@
       <img class="w-679 h-709" src="~assets/image/submit.png" alt="" />
     </div>
   </div> -->
-  <div class="grid lg:grid-cols-12 lg:gap-4  lg:mt-48 lg:mb-24 mt-8">
+  <div id="thankyou" class="grid lg:grid-cols-12 lg:gap-4  lg:mt-48 lg:mb-24 mt-8">
 <div class="grid lg:col-span-7  ">
 <div>
   <div class="lg:w-549 mx-auto   px-8 xl:ml-20   lg:mb-20  mb-8   ">

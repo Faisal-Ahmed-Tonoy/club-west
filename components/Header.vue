@@ -7,9 +7,11 @@
        <img class="md:h-28  md:w-96  lg:m-0 mx-auto       " src="~assets/image/logo.png" alt=""> 
      </div>
      <div class="lg:flex-1 lg:flex justify-end items-center     lg:mt-20 lg:mb-16 mt-8  "> 
-            <button class="bg-treasuredTeal   xl:w-72 lg:w-1/2 w-full h-16   ">     
-                <h1 class="text-white font-bold">Register</h1>  
+           <a href="#submit">
+              <button class="bg-treasuredTeal   xl:w-72 lg:w-1/2 w-full h-16  text-white font-bold ">     Register
+              
               </button>
+           </a>
      </div>
    </div>
     

@@ -2,7 +2,7 @@
 
 <div>
 <MainTwo/>
-<List/>
+<ListTwo/>
 <VipWaitList/>
 
 </div>

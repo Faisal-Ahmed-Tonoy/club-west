@@ -53,7 +53,7 @@
              
              {{description}}
        </p>
-    <a href="#list">
+    <a   href="#listfield2"   v-smooth-scroll="{ duration:  5000 ,offset: -50 }"   >
           <div class="flex  justify-center   lg:visible invisible  xm:h-0  lg:mb-12">
         <img class=" lg:h-9 " src="~assets/image/Polygon3.png" alt="" />
         </div>
@@ -71,6 +71,15 @@
  
 </template>
 <script>
+
+import Vue from 'vue'
+import vueSmoothScroll from 'vue-smooth-scroll'
+
+Vue.use(vueSmoothScroll, {
+    duration: 5000,
+    offset: -100,
+
+})
 export default{
    data() {
       return {

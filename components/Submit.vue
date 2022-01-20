@@ -1,7 +1,5 @@
- 
-
-<template>
-  <div id="submit" class="grid lg:grid-cols-12 lg:gap-4 xl:mt-28 mt-8 lg:mb-24">
+ <template>
+  <div  id="submitfield"  class="grid lg:grid-cols-12 lg:gap-4 xl:mt-28 mt-8 lg:mb-24">
     <form class="lg:col-span-7 xm:px-6 xl:ml-20">
       <p class="text-middleBlue font-bold text-5xl xm:mb-8">
         JOIN THE WAITLIST

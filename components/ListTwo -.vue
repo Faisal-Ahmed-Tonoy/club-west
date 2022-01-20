@@ -1,5 +1,5 @@
 <template>
-  <div id="list" class="grid lg:grid-cols-3 lg:gap-10">
+  <div id="listfield2" class="grid lg:grid-cols-3 lg:gap-10">
     <div class="lg:col-span-1 px-8 lg:mt-36">
       <p class="text-indigoDye font-bold text-5xl mb-12">
         {{ headLine }}
@@ -13,7 +13,7 @@
       </ul>
       <ul></ul>
 
-      <a href="#thankyou">
+      <a data-scroll href="#thankyou">
         <div class="flex justify-center lg:visible invisible xm:h-0 lg:my-12">
           <img class="lg:h-9" src="~assets/image/Polygon3.png" alt="" />
         </div>

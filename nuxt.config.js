@@ -9,7 +9,8 @@ export default {
     head: {
         title: 'clubwest',
         htmlAttrs: {
-            lang: 'en'
+            lang: 'en',
+
         },
         meta: [
             { charset: 'utf-8' },
@@ -38,7 +39,10 @@ export default {
     ],
 
     // Modules: https://go.nuxtjs.dev/config-modules
-    modules: [
+    modules: ['vue-scrollto/nuxt',
+
+        // Or if you have custom options...
+        ['vue-scrollto/nuxt', { duration: 300 }],
 
     ],
 

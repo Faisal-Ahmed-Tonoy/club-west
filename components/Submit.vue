@@ -1,10 +1,13 @@
- <template>
-  <div  id="submitfield"  class="grid lg:grid-cols-12 lg:gap-4 xl:mt-28 mt-8 lg:mb-24">
+<template>
+  <div
+    id="submitfield"
+    class="grid lg:grid-cols-12 lg:gap-4 xl:mt-28 mt-8 lg:mb-24"
+  >
     <form class="lg:col-span-7 xm:px-6 xl:ml-20">
-      <p class="text-middleBlue font-bold text-5xl xm:mb-8">
+      <p class="text-middleBlue font-bold md:text-5xl text-3xl leading-normal tracking-wide xm:mb-8">
         JOIN THE WAITLIST
       </p>
-      <p class="xm:mb-8 text-indigoDye text-2xl xm:w-560 lg:w-512">
+      <p class="xm:mb-8 text-indigoDye leading-normal tracking-wide md:text-2xl text-xl xm:w-560 lg:w-512">
         Register below to be among the first to learn about leasing
         opportunities once we open.
       </p>
@@ -12,12 +15,12 @@
         class="py-2 xm:my-10"
         :class="{ error: validation.hasError('firstName') }"
       >
-        <div class="font-bold text-middleBlue text-3xl"></div>
+        <div class="font-bold text-middleBlue md:text-3xl text-xl  leading-normal tracking-wide  "></div>
         <div
-          class="star font-bold text-middleBlue text-3xl border-b border-middleBlue"
+          class="star font-bold text-middleBlue  md:text-3xl text-xl border-b border-middleBlue  leading-normal tracking-wide  "
         >
           <input
-            class="pl-8 font-bold text-middleBlue placeholder-middleBlue text-3xl w-5/6 focus:outline-none"
+            class="pl-8 font-bold text-middleBlue placeholder-middleBlue  md:text-3xl text-xl w-5/6 focus:outline-none  leading-normal tracking-wide "
             type="text"
             v-model="firstName"
             placeholder="FIRST NAME"
@@ -31,12 +34,12 @@
         class="py-2 xm:my-10"
         :class="{ error: validation.hasError('lastName') }"
       >
-        <div class="font-bold text-middleBlue text-3xl"></div>
+        <div class="font-bold text-middleBlue md:text-3xl text-xl  leading-normal tracking-wide   "></div>
         <div
-          class="star font-bold text-middleBlue text-3xl border-b border-middleBlue"
+          class="star font-bold text-middleBlue  md:text-3xl text-xl border-b border-middleBlue  leading-normal tracking-wide "
         >
           <input
-            class="pl-8 font-bold text-indigoDye placeholder-indigoDye text-3xl w-5/6 focus:outline-none"
+            class="pl-8 font-bold text-indigoDye placeholder-indigoDye  md:text-3xl text-xl w-5/6 focus:outline-none  leading-normal tracking-wide "
             type="text"
             v-model="lastName"
             placeholder="LAST NAME"
@@ -50,12 +53,12 @@
         class="py-2 xm:my-10"
         :class="{ error: validation.hasError('email') }"
       >
-        <div class="font-bold text-middleBlue text-3xl"></div>
+        <div class="font-bold text-middleBlue md:text-3xl text-xl  leading-normal tracking-wide  "></div>
         <div
-          class="star font-bold text-middleBlue text-3xl border-b border-middleBlue"
+          class="star font-bold text-middleBlue  md:text-3xl text-xl border-b border-middleBlue  leading-normal tracking-wide  "
         >
           <input
-            class="pl-8 font-bold text-indigoDye placeholder-indigoDye text-3xl w-5/6 focus:outline-none"
+            class="pl-8 font-bold text-indigoDye placeholder-indigoDye  md:text-3xl text-xl w-5/6 focus:outline-none  leading-normal tracking-wide  "
             type="text"
             v-model="email"
             placeholder="EMAIL"
@@ -69,12 +72,12 @@
         class="py-2 xm:my-10"
         :class="{ error: validation.hasError('phone') }"
       >
-        <div class="font-bold text-middleBlue text-3xl"></div>
+        <div class="font-bold text-middleBlue md:text-3xl text-xl  leading-normal tracking-wide  "></div>
         <div
-          class="star font-bold text-middleBlue text-3xl border-b border-middleBlue"
+          class="star font-bold text-middleBlue md:text-3xl text-xl border-b border-middleBlue  leading-normal tracking-wide  "
         >
           <input
-            class="pl-8 font-bold text-indigoDye placeholder-indigoDye text-3xl w-5/6 focus:outline-none"
+            class="pl-8 font-bold text-indigoDye placeholder-indigoDye  md:text-3xl text-xl w-5/6 focus:outline-none  leading-normal tracking-wide  "
             type="text"
             v-model="phone"
             placeholder="PHONE"
@@ -85,12 +88,12 @@
         </div>
       </div>
       <div class="" :class="{ error: validation.hasError('comment') }">
-        <div class="font-bold text-middleBlue text-3xl"></div>
+        <div class="font-bold text-middleBlue md:text-3xl text-xl  leading-normal tracking-wide  "></div>
         <div
-          class="star font-bold text-middleBlue text-3xl border-b border-middleBlue"
+          class="star font-bold text-middleBlue  md:text-3xl text-xl border-b border-middleBlue  leading-normal tracking-wide "
         >
           <input
-            class="pl-8 font-bold text-indigoDye placeholder-indigoDye text-3xl w-5/6 focus:outline-none"
+            class="pl-8 font-bold text-indigoDye placeholder-indigoDye  md:text-3xl text-xl w-5/6 focus:outline-none  leading-normal tracking-wide "
             type="text"
             v-model="comment"
             placeholder="COMMENT"
@@ -103,7 +106,7 @@
 
       <button
         type="button"
-        class="bg-treasuredTeal text-white font-bold py-2 lg:w-2/4 w-full h-16 xm:w-full xm:my-8"
+        class="bg-treasuredTeal text-white font-bold py-2 lg:w-2/4 w-full h-16 xm:w-full xm:my-8  leading-normal tracking-wide "
         @click="submit"
       >
         Submit

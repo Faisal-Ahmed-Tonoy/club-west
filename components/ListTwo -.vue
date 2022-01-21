@@ -1,11 +1,13 @@
 <template>
   <div id="listfield2" class="grid lg:grid-cols-3 lg:gap-10">
     <div class="lg:col-span-1 px-8 lg:mt-36">
-      <p class="text-indigoDye font-bold text-5xl mb-12">
+      <p
+        class="text-indigoDye font-bold md:text-5xl text-3xl mb-12 leading-normal tracking-wide"
+      >
         {{ headLine }}
       </p>
       <ul
-        class="px-6 mb-8 list-disc list-outside text-indigoDye text-2xl lg:leading-10 lg:tracking-wider"
+        class="px-6 mb-8 list-disc list-outside text-indigoDye md:text-2xl text-xl leading-normal tracking-wide"
       >
         <li v-for="item in items" :key="item.message">
           {{ item }}

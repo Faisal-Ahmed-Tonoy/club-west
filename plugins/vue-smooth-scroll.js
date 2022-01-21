@@ -1,5 +1,5 @@
- import Vue from 'vue'
- import vueSmoothScroll from 'vue-smooth-scroll'
+import Vue from 'vue'
+import vueSmoothScroll from 'vue-smooth-scroll'
 
 
- Vue.use(vueSmoothScroll)
+Vue.use(vueSmoothScroll)

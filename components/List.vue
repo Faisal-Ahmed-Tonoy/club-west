@@ -1,11 +1,13 @@
 <template>
   <div id="listfield" class="grid lg:grid-cols-3 lg:gap-10">
     <div class="lg:col-span-1 px-8 lg:mt-36">
-      <p class="text-indigoDye font-bold text-5xl mb-12">
+      <p
+        class="text-indigoDye font-bold md:text-5xl text-3xl mb-12 leading-normal tracking-wide"
+      >
         {{ headLine }}
       </p>
       <ul
-        class="px-6 mb-8 list-disc list-outside text-indigoDye text-2xl lg:leading-10 lg:tracking-wider"
+        class="px-6 mb-8 list-disc list-outside text-indigoDye md:text-2xl text-xl leading-normal tracking-wide"
       >
         <li v-for="item in items" :key="item.message">
           {{ item }}
@@ -13,7 +15,23 @@
       </ul>
       <ul></ul>
 
-      <a   href="#submitfield"   v-smooth-scroll=" { duration: 5000, offset: -300}"   >
+      <a
+        href="#"
+        v-scroll-to="{
+          el: '#submitfield',
+
+          duration: 500,
+          easing: 'linear',
+          offset: -100,
+          force: true,
+          cancelable: true,
+          onStart: onStart,
+          onDone: onDone,
+          onCancel: onCancel,
+          x: false,
+          y: true,
+        }"
+      >
         <div class="flex justify-center lg:visible invisible xm:h-0 lg:my-12">
           <img class="lg:h-9" src="~assets/image/Polygon3.png" alt="" />
         </div>
@@ -29,17 +47,8 @@ li {
   padding-left: 30px;
 }
 </style>
- 
+
 <script>
- import Vue from 'vue'
-import vueSmoothScroll from 'vue-smooth-scroll'
-
- 
- Vue.use(vueSmoothScroll, {
-    duration: 5000,
-    offset: -300,
-
-})
 export default {
   data() {
     return {

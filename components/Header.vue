@@ -7,8 +7,21 @@
        <img class="md:h-28  md:w-96  lg:m-0 mx-auto       " src="~assets/image/logo.png" alt=""> 
      </div>
      <div class="lg:flex-1 lg:flex justify-end items-center     lg:mt-20 lg:mb-16 mt-8  "> 
-             <a   href="#submitfield"   v-smooth-scroll=" { duration: 5000 ,offset: -300}"   > 
-              <button class="bg-treasuredTeal   xl:w-72 lg:w-1/2 w-full h-16  text-white font-bold ">     Register
+              <a href="#" v-scroll-to="{
+     el: '#submitfield',
+     
+     duration: 500,
+     easing: 'linear',
+     offset: -100,
+     force: true,
+     cancelable: true,
+     onStart: onStart,
+     onDone: onDone,
+     onCancel: onCancel,
+     x: false,
+     y: true
+ }">
+              <button class="bg-treasuredTeal   xl:w-72 lg:w-1/2 w-full h-16  text-white  leading-normal tracking-wide  font-bold ">     Register
               
               </button>
            </a>
@@ -22,11 +35,7 @@
 import Vue from 'vue'
 import vueSmoothScroll from 'vue-smooth-scroll'
 
-Vue.use(vueSmoothScroll, {
-    duration: 5000,
-    offset: -300,
-
-})
+Vue.use(vueSmoothScroll )
 export default{
 
 }

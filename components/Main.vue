@@ -1,22 +1,35 @@
-<template>
+ <template>
    
    <div class="grid lg:grid-cols-3 lg:gap-2  ">
      <div class="lg:col-span-1 lg:mt-24 px-8 my-8  "> 
-         <p class="lg:text-center   text-indigoDye font-bold text-5xl lg:mb-12 mb-8  "> 
+         <p  class="lg:text-center  leading-normal tracking-wide   text-indigoDye font-bold md:text-5xl text-3xl  lg:mb-12 mb-8  "> 
          {{headLine}}
        </p>
        
        <div class="lg:flex  lg:justify-center lg:visible invisible    lg:mb-12">
   <img class="" src="~assets/image/Line15.png" alt="" />
        </div>
-        <p class="lg:text-center text-justify    xl:mb-12 mb-8 text-middleBlue font-bold text-5xl   "> 
+        <p class=" lg:text-center   leading-normal tracking-wide    xl:mb-12 mb-8 text-middleBlue font-bold md:text-5xl text-3xl   "> 
           {{seconsHeadLine}}
        </p>
-       <p class="lg:text-center lg:leading-loose lg:tracking-widest text:justify  text-indigoDye lg:mb-12   text-2xxl"> 
+       <p class="lg:text-center leading-loose tracking-widest   text-indigoDye lg:mb-12   md:text-2xxl text-xl" > 
              
             {{description}}
        </p>
-        <a   href="#listfield"   v-smooth-scroll=" { duration: 1000,offset: -300  }"   >
+      <a href="#" v-scroll-to="{
+     el: '#listfield',
+     
+     duration: 500,
+     easing: 'linear',
+     offset: 100,
+     force: true,
+     cancelable: true,
+     onStart: onStart,
+     onDone: onDone,
+     onCancel: onCancel,
+     x: false,
+     y: true
+ }">
            <div class="flex  justify-center   lg:visible invisible  xm:h-0  lg:mb-12">
         <img class=" lg:h-9 " src="~assets/image/Polygon3.png" alt="" />
         </div>
@@ -34,15 +47,9 @@
   
 </template>
 <script>
-
 import Vue from 'vue'
 import vueSmoothScroll from 'vue-smooth-scroll'
-
-Vue.use(vueSmoothScroll, {
-    duration: 1000,
-    offset: -300,
-
-})
+ Vue.use(vueSmoothScroll)
 export default{
    data() {
       return {
